@@ -28,7 +28,5 @@ class Game:
             pygame.display.update()
             await asyncio.sleep(0)
 
-
-if __name__ == '__main__':
-    game = Game()
-    asyncio.run(game.run())
+game = Game()
+asyncio.run(game.run())
